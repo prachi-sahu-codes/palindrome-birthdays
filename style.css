@@ -1,0 +1,108 @@
+:root {
+  --primary: #593d3b;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ****** nav ******** */
+
+.navigation {
+  background-color: var(--primary);
+  color: #fff;
+  padding: 1rem 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* ***** footer ****** */
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  margin-top: 3rem;
+  font-size: 2rem;
+  font-weight: 300;
+  background-color: var(--primary);
+  padding: 0.5rem;
+  text-align: center;
+  color: white;
+}
+
+.footer-links {
+  display: inline-block;
+  color: #fff;
+  padding: 0 1rem 0;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.footer-links:hover {
+  transform: scale(1.05);
+}
+
+.footer-name {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  font-weight: 500;
+}
+
+/* **** others **** */
+body {
+  background-image: url("hero.jpg");
+  background-size: 100vw 100vh;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+.container {
+  max-width: 900px;
+  text-align: center;
+  margin: 2.5rem auto;
+}
+
+.head {
+  font-size: 2rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+#bday-input {
+  font-size: 1rem;
+  padding: 0.8rem 2rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  border: 2px solid var(--primary);
+}
+
+#show-btn {
+  display: block;
+  margin: 1rem auto 2rem;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  background-color: var(--primary);
+  border: none;
+  border-radius: 0.3rem;
+  letter-spacing: 0.3px;
+}
+
+#show-btn:hover,
+#is-triangle-btn:hover {
+  background-color: #593d3bda;
+}
+
+#result {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-top: 0.5rem;
+}
